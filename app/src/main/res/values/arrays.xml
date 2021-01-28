@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="titles">
+        <item>Первая заметка</item>
+        <item>Вторая заметка</item>
+        <item>Третья заметка</item>
+        <item>Четвертая заметка</item>
+        <item>Пятая заметка</item>
+    </string-array>
+
+    <string-array name="dates">
+        <item>27 января</item>
+        <item>16 марта</item>
+        <item>2 июня</item>
+        <item>31 декабря</item>
+        <item>18 мая</item>
+    </string-array>
+
+    <string-array name="letters">
+        <item>Моя первая заметка</item>
+        <item>Моя вторая заметка</item>
+        <item>Моя третья заметка</item>
+        <item>Моя четвертая заметка</item>
+        <item>Моя пятая заметка</item>
+    </string-array>
+
+</resources>
