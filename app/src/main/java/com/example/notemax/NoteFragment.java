@@ -43,12 +43,12 @@ public class NoteFragment extends Fragment {
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
         TextView tv = view.findViewById(R.id.note);
-        String [] letters = getResources().getStringArray(R.array.letters);
+        String[] letters = getResources().getStringArray(R.array.letters);
 
         // вставить проверку на длину letter и title
 
         for (int i = 0; i < letters.length; i++) {
-            if (index == i){
+            if (index == i) {
                 tv.setText(letters[i]);
             }
         }
