@@ -81,9 +81,9 @@ public class ListFragment extends Fragment {
             tv.setText(String.format("%s\n%s", title, date));
             tv.setTextSize(textSize);
             if (i%2 == 0){
-                tv.setBackgroundColor(R.color.first_line);
+                tv.setBackgroundResource(R.color.first_line);
             } else{
-                tv.setBackgroundColor(R.color.second_line);
+                tv.setBackgroundResource(R.color.second_line);
             }
             layoutView.addView(tv);
             final int fi = i;
